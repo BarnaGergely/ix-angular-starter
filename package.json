@@ -19,6 +19,7 @@
     "@angular/router": "^19.2.0",
     "@siemens/ix": "^3.0.0",
     "@siemens/ix-angular": "^3.0.0",
+    "@siemens/ix-brand-theme": "^2.3.0",
     "@siemens/ix-icons": "^3.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

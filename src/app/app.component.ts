@@ -5,7 +5,10 @@ import { AppFrameComponent } from "./shared/components/app-frame/app-frame.compo
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, AppFrameComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `
+    <app-app-frame>
+      <router-outlet></router-outlet>
+    </app-app-frame>
+    `,
 })
 export class AppComponent { }
